@@ -18,7 +18,7 @@ sleep 1
 toilet "Next Time Use This Command To Start👇" -f term -F border --gay | pv -qL 100
 sleep 1
 toilet "cd HiddenEye" -f term -F border --gay | pv -qL 100
-toilet "./HiddenEye.py" -f term -F border --gay | pv -qL 100
+toilet "python HiddenEye.py" -f term -F border --gay | pv -qL 100
 sleep 6
 toilet "Starting To Install HiddenEye" -f term -F border --gay | pv -qL 100
 sleep 3
@@ -30,4 +30,5 @@ python3 -m pip install -r requirements.txt
 clear
 toilet "Starting HiddenEye" -f term -F border --gay | pv -qL 100
 sleep 2
-./HiddenEye.py
+python HiddenEye.py
+
