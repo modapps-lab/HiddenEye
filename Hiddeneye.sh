@@ -24,7 +24,7 @@ toilet "Starting To Install HiddenEye" -f term -F border --gay | pv -qL 100
 sleep 3
 git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git
 chmod 777 HiddenEye
-pip install requests -y
+pip install requests
 cd HiddenEye
 python3 -m pip install -r requirements.txt
 clear
