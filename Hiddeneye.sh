@@ -32,3 +32,4 @@ toilet "Starting HiddenEye" -f term -F border --gay | pv -qL 100
 sleep 2
 python HiddenEye.py
 Yes, i do
+
